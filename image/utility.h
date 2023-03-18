@@ -1,7 +1,9 @@
 #pragma once
-#include <cmath>
 
 class Utility
 {
+public:
 	static float toRad(float angle);
+private:
+
 };
