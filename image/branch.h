@@ -15,9 +15,9 @@ public:
 	Branch() = default;
 	Branch(const cv::Point2f& initial, const float size, const float angle);
 	~Branch() = default;
-	cv::Point2f getInitial() const;
-	cv::Point2f getFinal() const;
-	float getSize() const;
-	float getAngle() const;
-	void drawOnImage(cv::Mat& image) const;
+	cv::Point2f getInitial();
+	cv::Point2f getFinal();
+	float getSize();
+	float getAngle();
+	void drawOnImage(cv::Mat& image);
 };
