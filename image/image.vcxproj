@@ -135,10 +135,12 @@
   <ItemGroup>
     <ClCompile Include="branch.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="tree.cpp" />
     <ClCompile Include="utility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="branch.h" />
+    <ClInclude Include="tree.h" />
     <ClInclude Include="utility.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

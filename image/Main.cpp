@@ -2,6 +2,7 @@
 #include <iostream>
 #include "branch.h"
 #include "utility.h"
+#include "tree.h"
 
 using namespace cv;
 using namespace std;
@@ -9,15 +10,9 @@ using namespace std;
 int main()
 {
     // Cria uma imagem preta de tamanho 500x500
-    Mat image = Mat::zeros(800, 800, CV_8UC3);
+    Mat image = Mat::zeros(500, 500, CV_8UC3);
 
-    // Define o centro do círculo como (250, 250) e o raio como 100
-    Point center = Point(400, 400);
-
-    for (int i = 0; i < 360; i++) {
-        Branch galho = Branch(center, i, Utility::toRad(i));
-        galho.drawOnImage(image);
-    }
+    Tree::drawTree(image, Point2f(250, 500), 100, Utility::toRad(90));
 
     // Mostra a imagem na tela
     imshow("Círculo", image);
