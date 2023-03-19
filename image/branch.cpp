@@ -35,5 +35,5 @@ float Branch::getAngle(){
 }
 
 void Branch::drawOnImage(cv::Mat& image){
-	cv::line(image, m_initial, m_final, cv::Scalar(255, 255, 255), 3);
+	cv::line(image, m_initial, m_final, cv::Scalar(255, 255, 255), 1);
 }
