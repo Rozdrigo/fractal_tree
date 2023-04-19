@@ -1,30 +1,22 @@
 # **Fractal Three Project**
 
-Este projeto é uma implementação em C++ e OpenCV de um programa que gera e exibe imagens de fractais de árvores. O código é baseado em algoritmos matemáticos que geram a estrutura das árvores de forma recursiva.
+Este projeto Ã© uma implementaÃ§Ã£o em C++ e OpenCV de um programa que gera e exibe imagens de fractais de Ã¡rvores. O cÃ³digo Ã© baseado em algoritmos matemÃ¡ticos que geram a estrutura das Ã¡rvores de forma recursiva.
 
-## **Pré-requisitos**
+## **PrÃ©-requisitos**
 
-Para executar este projeto, você precisará ter instalado em seu sistema:
+Para executar este projeto, vocÃª precisarÃ¡ ter instalado em seu sistema:
 
 - C++ 11 ou superior
 - OpenCV 4 ou superior
 
-## **Como executar o programa**
-
-Em processo…
-
-## **Configurações do programa**
-
-Em processo…
-
 ## **Exemplos de imagens geradas**
 
-Em processo…
+![Group 21](https://user-images.githubusercontent.com/60229463/233144154-87f6aaa8-6816-4a98-a8fe-1316368ed9e3.png)
 
 ## **Contribuindo**
 
-Se você deseja contribuir para este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request. Será um prazer receber feedbacks e melhorar ainda mais este programa.
+Se vocÃª deseja contribuir para este projeto, sinta-se Ã  vontade para abrir uma issue ou enviar um pull request. SerÃ¡ um prazer receber feedbacks e melhorar ainda mais este programa.
 
-## **Licença**
+## **LicenÃ§a**
 
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+Este projeto estÃ¡ licenciado sob a licenÃ§a MIT. Consulte o arquivo LICENSE para obter mais informaÃ§Ãµes.
